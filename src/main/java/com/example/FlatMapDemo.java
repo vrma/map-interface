@@ -30,6 +30,8 @@ public class FlatMapDemo {
         System.out.println("Flujo de listas aplanado por cortesia de flatMap");
         flujoDeListas.flatMap(l -> l.stream()).forEach(System.out::println);
 
+
+
     }
 
 }
